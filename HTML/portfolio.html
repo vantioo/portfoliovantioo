@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="folder-23690_1280.png">
+  
+
     <style>
         body, html { 
             margin: 0;
@@ -41,7 +43,20 @@
             padding: 10px; 
             border-radius: 5px; 
             margin: 10px 0;
+            
         }
+        .icons { display: flex;
+           align-items: center; 
+           gap: 10px; /* Spazio tra le icone */
+           }
+            .icons .fa-sun {
+                font-size:2vw;
+               color: yellow;
+              } 
+              .icons .fa-solar-panel { 
+                font-size:3vw;
+                color: grey;
+              }
         a:link, a:visited {
             color: blue;
             background-color: transparent;
@@ -57,7 +72,10 @@
             background-color: transparent;
             text-decoration: underline;
         }
+    
     </style>
+<script src="https://kit.fontawesome.com/3f9ea71ebd.js" crossorigin="anonymous"></script>
+
 </head>
 <body style="background: linear-gradient(to right, #3a7bd5, #3a6073, #536976, #292e49, #0f0c29);">
     <div class="content">
@@ -75,11 +93,17 @@
         <div class="riquadro">
             <h3>EDUCATION</h3>
             <h4>September 2018-June 2023</h4>
-            <p>Liceo Girolamo Fracastoro, Verona</p>
+            <p><a href="http://move-project.eu/project/" target="_blank"><i>Liceo Girolamo Fracastoro</i></a>, Verona</p>
         
         <div class="riquadro">
             <h3>PECULIAR EXPERIENCE</h3>
-            <p>During the last year of high school, I had the opportunity to work on a project about solar panels. The idea was to remove a carport with possible traces of asbestos and to substitute it in a sustainable way. I had the chance to work on the technological side, and I learnt about the importance of dividing tasks while working in a group.</p>
+            <p>During the last year of high school, I had the opportunity to work on a project about solar panels. The idea was to remove a carport with possible traces of asbestos and to substitute it in a sustainable way. I had the chance to work on the technological side, and I learnt about the importance of dividing tasks while working in a group. </p>
+            <div class="icons">
+            <i class="fa-solid fa-sun"></i>
+            </div>
+            <div class="icons">
+            <i class="fa-solid fa-solar-panel"></i>
+        </div>
         </div>
         </div>
         <hr>
@@ -91,4 +115,5 @@
     </div>
 </body>
 </html>
+
 
